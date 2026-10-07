@@ -1,0 +1,160 @@
+css stands for cascanding style sheet 
+its not a programming language but a cascanding language 
+we use css to style html content 
+
+
+with different styles and properties 
+
+how does css achieve this{
+    we use selectors >>this are a point of linkage between html and css via tags/elements {
+        css has three rules {
+            cascade >>interprate and execute css line by line 
+            specificity>>different css rules and selectors have various reactivituy chain 
+
+        }
+        css can be used in three ways with htmls {
+            inline css>>css embedded in line with html 
+            tags (opening tag >>uses css attributes >>stlye attribute)\
+
+            {
+                internal css>>this is css internally in html head >>we use the style tag to embedd
+                css inthe html 
+                
+            }
+            
+            external css>>this is done via an extenal .css file which
+             is linked via the head tag css link 
+
+        }
+    }
+}
+
+selectors {
+
+    a selector ahs the following properties {
+        selector name 
+        the curly brackets 
+        the property and value combination 
+        every property -value should have a termination at the end via a semicolon 
+
+
+    }
+    element selector/tag selectors>>this are selectors that ar eused to select a specific tag or the entiore 
+    tag/tags withthe same name 
+
+    the universal selector>>this selector is defined by the asteric symbol (*) its used to select everything 
+    in the whole document {
+        used when applying common properties across every tag >>fonts and colors 
+
+    }
+ class selector {
+     this are a type of seletor defined by the dot syntax 
+     the name is given using a class attribute inline wiht the html tag htat is been targettd 
+
+     one class can be usd for more than one element 
+     and one element can have more than one class
+
+
+
+ }
+ id selector>>this is  just like the class selector but its more specific {
+    only one id can belong to one element 
+    it is denoted by the hash symbol when selecting 
+    its more spcific than the class selector
+ }
+//pseudoclass selectors {
+    hover 
+    active
+}
+//descendant selectors 
+
+}
+
+Colors{
+    colors in css are defined in four ways {
+        hex>>we use hexadecimal naming properites (its a combinations of letters a-f and upto 16 )
+        normal-color-naming (define the color name,eg blue ,indigo )
+        rgb(red,green,blue>>256 combinations of the colors )
+        a shortcut to utilizing colors is we use the color picker website {
+            especialy ot the brand colors {
+                primary color: ;this is the main color of the applicatin >>eldohub green 
+                secondary >>this is the second main color >>the eldohub light green 
+                accent color>>this is the color used in buttons ,hovers >>eldohub gold
+            }
+        }
+
+    }
+}
+Typography{
+    we have varius alignments of text in css with properties raning from {
+        center>>text is aligned at the center with 
+        left: ;>>means text is strucutred to the begining of the page
+        right: ;>>means text is strucutred to the end  of the page
+        justify>>means text is strucutred to the begining of the paragraph
+    }
+}
+Fonts{
+    fonts conroll how we view text {
+        we define fonts in the follwoign ways {
+         px>>pixels
+         em/rem>>root measurement >>measurment in relation to the parent container {
+            used mostly becuase of their dynamic model:
+            1erm/rem=16px
+            if i say {
+                font size=20px 
+                font size=2rem 
+
+                which is bigger>>
+            }
+         }
+        }
+    }
+}
+Box model{
+    literally everything in html is a box/continer and the box model is used to manipulate the sorroundings 
+    of the contents included there 
+
+}
+Margin>>referes to the space between two borders {
+    margin-top: ;refers to the space to the top between two borders
+    margin-bottom: ;refers to the space to the bottom between two borders
+    margin-right: ;refers to the space to the right between two borders
+    margin-left: ;refers to the space to the left between two borders
+    to counter for repetion we use the one line shortcut with marign 
+    {
+          margin:30px 50px ;
+
+          30px>>refers to margin top and bottom 
+
+          50px >>refers to margin left and right,
+
+    }
+}
+Padding>>referes to the space between content and border (any child  inside a container )
+Borders{
+    this referes to an imaginary line until its given properties to style it 
+    they include the color ,the weight ,nature of border {
+        border:1px solid black
+
+        i need a border all round of 1px the nature is solid/dashed ,the color is black 
+
+        we can be a ble to round our borders with what we call border-radius with a percentile of 100% 
+
+        {a box to. circle eg>>profiles }
+        border-radius:everything 
+               border-radius-top-left
+                border-radius-bottom-left
+                 border-radius-top-right
+                 border-radius-bottom-right
+                
+
+
+
+    }
+}
+
+
+
+Backgrounds
+
+
