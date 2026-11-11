@@ -1,0 +1,31 @@
+/* animations >>this allows us to manipulate frames in transitions of the website 
+from a content approach theanmations allows us to pin point tranisitons {
+    we can have 
+    entrances 
+    exits \
+    bounce 
+    all this animations make sure that our application stays interactive and intuitive 
+}
+we acheve this in css via @keyframes >>this is a css  block of code that allows us to {
+    controll motion in two ways {
+        via the from ....to class 
+
+        and the percentile{from 0 --- 100%}
+
+    }
+        we join the reusable keyframe animation by the animation proprtty in the css block 
+        andthis propery had {
+        name of animation 
+        the duration 
+        the nature 
+
+} */
+
+@keyframes bounce{
+    from{
+      color: brown;
+    }
+    to{
+    color: yellow;
+    }
+}
